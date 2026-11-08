@@ -1,17 +1,24 @@
-# Stereopticon
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logos/stereopticon-lockup-dark.svg">
+    <img alt="Stereopticon" src="assets/logos/stereopticon-lockup-light.svg" width="420">
+  </picture>
+</p>
+
+<p align="center"><a href="https://stereopticon.org">stereopticon.org</a></p>
 
 <img width="1973" height="1200" alt="Screenshot 2026-05-16 175749" src="https://github.com/user-attachments/assets/2dd2bc5f-2178-4a7a-9251-bb3ca19685f8" />
 
 
 **A launcher for playing PC games in stereo 3D.**
 
-Stereopticon finds your games, installs the right stereo 3D mod for each one, sets the output for your display and launches the game. Version 0.1 is a front end for [wiz3D](https://github.com/effcol/wiz3D), the universal stereo injector for DirectX 7 to 11 and OpenGL games. Support for other mods (Geo-11, UEVR, ReShade-based conversion, head tracking) is in the code and will be switched on tool by tool as each is tested.
+Stereopticon finds your games, installs the right stereo 3D mod for each one, sets the output for your display and launches the game. Version 0.1 is a front end for [wiz3D](https://github.com/Stereopticon-Org/wiz3D), the universal stereo injector for DirectX 7 to 11 and OpenGL games. Support for other mods (Geo-11, UEVR, ReShade-based conversion, head tracking) is in the code and will be switched on tool by tool as each is tested.
 
 Stereopticon is licensed under the **GNU LGPL v2.1 or later**, the same licence as wiz3D.
 
 ## Download
 
-Get the latest version from the [Releases page](https://github.com/effcol/Stereopticon/releases). Two files are offered:
+Get the latest version from the [Releases page](https://github.com/Stereopticon-Org/Stereopticon/releases). Two files are offered:
 
 | File | Use it if |
 |---|---|
@@ -42,7 +49,7 @@ wiz3D can output half or full side-by-side, half or full top-and-bottom, red/cya
 You need [Node.js](https://nodejs.org) 22 or later. On Windows: `winget install OpenJS.NodeJS.LTS`.
 
 ```
-git clone https://github.com/effcol/Stereopticon.git
+git clone https://github.com/Stereopticon-Org/Stereopticon.git
 cd Stereopticon
 npm install
 npm start

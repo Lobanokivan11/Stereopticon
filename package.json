@@ -4,10 +4,10 @@
   "description": "Open-source launcher for stereo 3D and head tracking in PC games. First release: a front end for wiz3D.",
   "version": "0.1.0",
   "author": "effcol",
-  "homepage": "https://github.com/effcol/Stereopticon",
+  "homepage": "https://stereopticon.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/effcol/Stereopticon.git"
+    "url": "https://github.com/Stereopticon-Org/Stereopticon.git"
   },
   "license": "LGPL-2.1-or-later",
   "main": "src/main.js",
@@ -17,7 +17,8 @@
     "bundle": "node scripts/build-data-bundle.js",
     "dist": "node scripts/build-data-bundle.js && electron-builder --win",
     "setup": "node scripts/download-tools.js",
-    "setup:force": "node scripts/download-tools.js --force"
+    "setup:force": "node scripts/download-tools.js --force",
+    "icons": "electron scripts/render-icons.js"
   },
   "build": {
     "appId": "io.github.effcol.stereopticon",
@@ -64,7 +65,7 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "effcol",
+        "owner": "Stereopticon-Org",
         "repo": "Stereopticon",
         "releaseType": "draft"
       }

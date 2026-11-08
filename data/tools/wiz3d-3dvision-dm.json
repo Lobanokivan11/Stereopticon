@@ -2,7 +2,7 @@
   "id": "wiz3d_3dvision_dm",
   "name": "wiz3D — 3D Vision Direct Mode",
   "description": "wiz3D component (effcol) for games that originally rendered stereoscopic 3D themselves and submitted to NVIDIA 3D Vision via Direct Mode. wiz3D tricks the game into believing 3D Vision is present, supplies a render surface, then re-routes the resulting stereo output to any modern display format. Fundamentally different from the wrapper variant — the game does the 3D rendering, wiz3D only handles capture and output routing.",
-  "url": "https://github.com/effcol/wiz3D",
+  "url": "https://github.com/Stereopticon-Org/wiz3D",
   "license": "LGPL-2.1 (not bundled — fetched at setup from upstream releases)",
   "graphics_api": ["dx9", "dx10", "dx11"],
   "graphics_api_status": {
@@ -14,7 +14,7 @@
   "fetch_strategy": "github_release_latest",
   "versions": {
     "latest": {
-      "url": "https://github.com/effcol/wiz3D/releases/latest",
+      "url": "https://github.com/Stereopticon-Org/wiz3D/releases/latest",
       "default": true,
       "fetch_strategy": "github_release_latest",
       "native_outputs": [

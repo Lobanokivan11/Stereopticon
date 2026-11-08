@@ -179,7 +179,7 @@ function makeFix(g) {
         type:         g.fixType,
         cost:         'free',
         authors:      ['effcol', 'iZ3D (original)', 'bo3b (open-source release)'],
-        url:          'https://github.com/effcol/wiz3D',
+        url:          'https://github.com/Stereopticon-Org/wiz3D',
         license:      'LGPL-2.1',
         recommended:  g.status === 'working' || g.status === 'partial',
         rendering_method:    SECTION_TO_RENDER_METHOD[g.fixType] || 'Dual-View Rendering',

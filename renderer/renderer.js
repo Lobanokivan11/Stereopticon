@@ -181,7 +181,7 @@ document.getElementById('btnHelp').addEventListener('click', function(e) {
     }
 });
 document.getElementById('helpWebsite')?.addEventListener('click', () => { window.api.openUrl('https://stereopticon.org'); closeAllDropdowns(); });
-document.getElementById('helpGithub')?.addEventListener('click', () => { window.api.openUrl('https://github.com/effcol/stereopticon'); closeAllDropdowns(); });
+document.getElementById('helpGithub')?.addEventListener('click', () => { window.api.openUrl('https://github.com/Stereopticon-Org/Stereopticon'); closeAllDropdowns(); });
 document.getElementById('helpIssues')?.addEventListener('click', () => { window.api.openUrl('https://github.com'); closeAllDropdowns(); });
 function wireWindowControl(id, fn) {
     const btn = document.getElementById(id);

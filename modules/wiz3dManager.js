@@ -2,7 +2,7 @@
 /**
  * modules/wiz3dManager.js
  *
- * Downloads and updates wiz3D itself from its GitHub releases (effcol/wiz3D).
+ * Downloads and updates wiz3D itself from its GitHub releases (Stereopticon-Org/wiz3D).
  *
  * Layout under appPaths.toolDir('wiz3d'):
  *   versions/<tag>/      one extracted release, without its top "wiz3D/" folder
@@ -18,7 +18,7 @@ const https  = require('https');
 const AdmZip = require('adm-zip');
 const { toolDir } = require('./appPaths');
 
-const REPO       = 'effcol/wiz3D';
+const REPO       = 'Stereopticon-Org/wiz3D';
 const USER_AGENT = 'Stereopticon';
 const KEEP_VERSIONS = 2;
 

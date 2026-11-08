@@ -2,7 +2,7 @@
   "id": "wiz3d_wrapper",
   "name": "wiz3D — DX7/DX8/DX9/DX10/DX11 Wrappers",
   "description": "Lightweight stereo-3D injection wrappers (effcol). Wraps DirectX 7 / 8 / 9 / 10-11 / 12 and Vulkan to add stereoscopic 3D to games that don't natively render it. Originally targeted iZ3D-supported titles, now works with most games. The DX9-DX11 wrappers also hook into games that shipped with DirectX Automatic Mode support (in-game 3D toggles, separation/convergence sliders), driving those controls from the wrapper. Stereopticon downloads wiz3D from its upstream GitHub release at setup time rather than bundling — wiz3D's LGPL-2.1 isn't directly compatible with GPL-3.0 distribution, and this also keeps users on the latest build. Config via wiz3D_Config.xml dropped next to the game exe.",
-  "url": "https://github.com/effcol/wiz3D",
+  "url": "https://github.com/Stereopticon-Org/wiz3D",
   "license": "LGPL-2.1 (not bundled — fetched at setup from upstream releases)",
   "graphics_api": ["dx7", "dx8", "dx9", "dx10", "dx11", "dx12", "vulkan"],
   "graphics_api_status": {
@@ -15,7 +15,7 @@
   "fetch_strategy": "github_release_latest",
   "versions": {
     "latest": {
-      "url": "https://github.com/effcol/wiz3D/releases/latest",
+      "url": "https://github.com/Stereopticon-Org/wiz3D/releases/latest",
       "default": true,
       "fetch_strategy": "github_release_latest",
       "native_outputs": [

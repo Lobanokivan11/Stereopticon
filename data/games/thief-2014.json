@@ -16,7 +16,7 @@
         "iZ3D (original)",
         "bo3b (open-source release)"
       ],
-      "url": "https://github.com/effcol/wiz3D",
+      "url": "https://github.com/Stereopticon-Org/wiz3D",
       "license": "LGPL-2.1",
       "recommended": true,
       "rendering_method": "Dual-View Rendering",
@@ -67,7 +67,7 @@
         "iZ3D (original)",
         "bo3b (open-source release)"
       ],
-      "url": "https://github.com/effcol/wiz3D",
+      "url": "https://github.com/Stereopticon-Org/wiz3D",
       "license": "LGPL-2.1",
       "recommended": false,
       "rendering_method": "Dual-View Rendering",

@@ -2,7 +2,7 @@
   "id": "wiz3d_hd3d",
   "name": "wiz3D — AMD HD3D Output Handler",
   "description": "wiz3D component (effcol) for DX11 games that render their own stereoscopic 3D internally and originally targeted AMD's HD3D output path. wiz3D intercepts the HD3D submission, then outputs the resulting stereo pair to any modern display format. Same architectural trick as the 3D Vision Direct Mode handler, but for AMD's HD3D pipeline.",
-  "url": "https://github.com/effcol/wiz3D",
+  "url": "https://github.com/Stereopticon-Org/wiz3D",
   "license": "LGPL-2.1 (not bundled — fetched at setup from upstream releases)",
   "graphics_api": ["dx11"],
   "graphics_api_status": {
@@ -14,7 +14,7 @@
   "fetch_strategy": "github_release_latest",
   "versions": {
     "latest": {
-      "url": "https://github.com/effcol/wiz3D/releases/latest",
+      "url": "https://github.com/Stereopticon-Org/wiz3D/releases/latest",
       "default": true,
       "fetch_strategy": "github_release_latest",
       "native_outputs": [

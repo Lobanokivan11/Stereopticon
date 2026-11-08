@@ -2,7 +2,7 @@
   "id": "wiz3d_opengl",
   "name": "wiz3D — OpenGL Quad-Buffer Stereo Handler",
   "description": "wiz3D component (effcol) for OpenGL games that natively support quad-buffer stereoscopic rendering. wiz3D provides a surface for the game to render its left/right buffers onto, then re-outputs to any supported display format. Same capture-and-reroute trick as the 3D Vision Direct Mode and HD3D variants, but for the OpenGL pipeline. Absorbs what would otherwise be a standalone 'OpenGL Quad-Buffer Stereo' tool — wiz3D's wiz3D/opengl-quad-buffer-stereo/ variant IS that pipeline. Config via wiz3D_Config.xml.",
-  "url": "https://github.com/effcol/wiz3D",
+  "url": "https://github.com/Stereopticon-Org/wiz3D",
   "license": "LGPL-2.1 (not bundled — fetched at setup from upstream releases)",
   "graphics_api": ["opengl"],
   "graphics_api_status": {
@@ -14,7 +14,7 @@
   "fetch_strategy": "github_release_latest",
   "versions": {
     "latest": {
-      "url": "https://github.com/effcol/wiz3D/releases/latest",
+      "url": "https://github.com/Stereopticon-Org/wiz3D/releases/latest",
       "default": true,
       "fetch_strategy": "github_release_latest",
       "native_outputs": [
