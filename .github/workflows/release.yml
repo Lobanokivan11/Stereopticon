@@ -33,7 +33,7 @@ jobs:
             exit 1
           fi
       - name: Build and upload to a draft release
-        run: npm run dist -- --publish always
+        run: npm run dist
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Keep the build as a workflow artifact
